@@ -1,5 +1,0 @@
-GENERAL
-- clean up code
-
-MOBILE
-- mobile responsiveness
