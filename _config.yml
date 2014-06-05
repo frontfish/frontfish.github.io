@@ -8,3 +8,14 @@ url: "http://yourdomain.com"
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title
+
+JB:
+  comments:
+    provider: disqus
+    disqus:
+      short_name: 'frontfish'
+      
+  analytics:
+    provider: google
+    google:
+      tracking_id : 'UA-46595226-1'
