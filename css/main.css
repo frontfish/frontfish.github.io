@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+.right {
+    float: right;
+}
+
 html, body { height: 100%; }
 
 body {
@@ -257,6 +261,23 @@ a:visited { color: #205caa; }
 
 .post-picture {
     max-width: 300px;
+}
+
+.post-header h1 {
+    display: inline;
+    margin-right: 5px;
+}
+
+.post-header h2 {
+    font-size: 22px;
+    color: #616161;
+    display: inline;
+    margin-right: 5px;
+}
+
+.post-header p {
+    display: inline;
+    margin-right: 5px;
 }
 
 /* Syntax highlighting styles */

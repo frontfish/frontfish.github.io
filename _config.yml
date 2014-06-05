@@ -1,9 +1,13 @@
 # Site settings
 title: frontfish.net
 email: chris@frontfish.net
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Hi there. I'm Christopher Hinstorff, but you can call me Chris. I make 2D web games."
 baseurl: ""
-url: "http://yourdomain.com"
+url: "http://frontfish.net"
+
+footer_text: "© Christopher Hinstorff 2014"
+
+github: chinstorff
 
 # Build settings
 markdown: kramdown
@@ -19,3 +23,6 @@ JB:
     provider: google
     google:
       tracking_id : 'UA-46595226-1'
+
+gems:
+  - jekyll-redirect-from
