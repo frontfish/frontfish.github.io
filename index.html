@@ -12,7 +12,7 @@ layout: default
         <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 	<br>
-	<img class="post-picture" src="{{ post.url | prepend: site.baseurl }}/picture.png">
+	<a href="{{ post.url | prepend: site.baseurl }}"><img class="post-picture" src="{{ post.url | prepend: site.baseurl }}/picture.png"></a>
       </li>
     {% endfor %}
   </ul>
