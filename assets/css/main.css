@@ -275,6 +275,7 @@ a:visited { color: #205caa; }
 
 .post-picture {
     max-width: 355px;
+    max-height: 250px;
 }
 
 .post-header h1 {
