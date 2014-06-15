@@ -10,9 +10,12 @@ layout: default
   </header>
 
   <article class="post-content">
-    <div id="game"></div>
-  {{ content }}
+    <div class="game-wrapper">
+      <div id="game"></div>
+      {{ content }}
+    </div>
   </article>
-
+  
+  {% include game_ad.html %}
   {% include comments.html %}
 </div>
