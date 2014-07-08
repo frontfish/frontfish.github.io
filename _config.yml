@@ -23,6 +23,6 @@ JB:
     provider: google
     google:
       tracking_id : 'UA-46595226-1'
-
+ 
 gems:
   - jekyll-redirect-from
