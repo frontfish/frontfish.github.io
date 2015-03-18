@@ -3,16 +3,13 @@ layout: default
 ---
 <div class="home">
     <table class="posts">
-      {% for post in site.posts %}
+      {% assign posts = site.posts | sort: 'title' %}
+      {% for post in posts %}
       <tr>
 	<td class="game-link">
-	  <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
 	  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
 	  <br>
 	  <a href="{{ post.url | prepend: site.baseurl }}"><img class="post-picture" src="{{ post.url | prepend: site.baseurl }}/picture.png"></a>
-	</td>
-	<td class="ad">
-	  {% include front_ad.html %}
 	</td>
       </tr>
       {% endfor %}
